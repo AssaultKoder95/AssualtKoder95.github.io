@@ -16,6 +16,16 @@
 	
 </head>
 
+<style type="text/css">
+
+.clsinp {
+
+	font-size: 15px;
+	font-weight: 500;	
+	color:black;
+}
+</style>
+
 <body class="bg-info">
 
 	<div class="container-fluid text-center">
@@ -111,33 +121,64 @@
 
 
 		<div class="bg-primary">
-		<h2 style="padding-top:20px;">Contact Details</h2>
-		
-		<form method="POST" action="">
-		<label> <i class="fa fa-user"></i> Name : </label>	
-		<input type="text" name="person_name" />
+			<h2 style="padding-top:15px;">Contact Details</h2>
 
+			<div class="col-md-6">
+				<form method="POST" action="" role="role" class="form-inline">
+					<div class="form-group">
+						<label class="control-label clsinp" style="padding:10px 0px 10px;"> <i class="fa fa-user"></i> Name : </label>	
+						<input type="text" name="person_name" class="form-control " />
+						<br/>
+						<label class="control-label clsinp" style="padding:10px 0px 10px;"> <i class="fa fa-mobile"></i> Phone : </label>	
+						<input type="text" name="person_mobile" class="form-control " />
+						<br/>
+						<label class="control-label clsinp" style="padding:10px 0px 10px;"> <i class="fa fa-message"></i> Subject : </label>	
+						<input type="text" name="person_sub" class="form-control " />
+						<br/>
+						<label class="control-label clsinp" style="padding:10px 0px 10px;"> Message : </label>
+						<textarea type="text" name="person_message" rows="5" cols="18" class="form-control">
+						</textarea>
+						<br/><br/>
+						<button type="submit" class="btn btn-default btn-sm col-sm-offset-2 col-md-10">SUBMIT</button>
+					</div>
 
-		<label> <i class="fa fa-mobile"></i> Phone : </label>	
-		<input type="text" name="person_mobile" />
+				</form>	
+			</div>
 
+			<dir class="col-md-6">
+				<p class="well well-lg lead text-left">
+					
+					<kbd>
+					Email : Abhishekkhanna1995@gmail.com
+					</kbd>
+					<br/>
+					<kbd>
+					Phone : ~~~ my phone no ~~~	
+					</kbd>
+					<br/>
+					<kbd>
+					Profiles : 
+					</kbd>
+					<br/>
+					<kbd>
+						<code style="padding:0px 10px;"> hackerearth : </code>
+					</kbd>
+						<br/>
+					<kbd>
+						<code style="padding:0px 10px;"> Hackerrank : </code>
+					</kbd>
+						<br/>
+					<kbd>
+						<code style="padding:0px 10px;"> LinkedIn : </code>
+					</kbd>
 
-		<label> <i class="fa fa-message"></i> subject : </label>	
-		<input type="text" name="person_sub" />
-
-
-		<label> Message : </label>
-		<br/>	
-		<textarea type="text" name="person_message" rows="5" cols="10">
-		</textarea>
-		
-		</form>	
-
+				</p>
+			</dir>
 		</div>
-
+	
 	</div>
 	
-	<footer style="padding:30px;">
+	<footer style="padding:30px 480px;">
 		
 		<kbd> This Website has been designed by AK95 </kbd>
 
